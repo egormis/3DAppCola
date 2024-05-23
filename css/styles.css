@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e7223a;
+}
+
+.navbar {
+  background-color: #360103;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff8ff !important;
+}
+
+.nav-link:hover {
+  color: #7f1d1d !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #611826;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #7f1d1d;
+}
+
+#cola-history {
+  background-color: #e7223a;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#fanta {
+  background-color: #ff5f17;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#dr-pepper {
+  background-color: #6f1712;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#3d-container {
+  width: 100%;
+  height: 500px;
+  background-color: #a83232;
+  border: 1px solid #611826;
+  margin: 20px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+button.btn-primary {
+  background-color: #e63946;
+  color: #1b1315;
+}
+
+button.btn-secondary {
+  background-color: #611826;
+  color: #000000;
+}
+
+button.btn-info {
+  background-color: #7f1d1d;
+  color: #000000;
+}
